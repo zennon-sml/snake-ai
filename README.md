@@ -10,6 +10,7 @@ Dependencias:
 cd snake-ai
 pipenv shell
 pipenv install
+python agent.py
 ```
 
 # Reinforcement Learning IA presentation
@@ -21,8 +22,11 @@ RL vai ensinar ao agente de software como se comportar em um ambiente dizendo o 
 Usando Deep Q Learning(DQN), essa maneira extende RL usando uma profunda rede neural  para prever ações.
 
 As três partes necessarias são:
+
 O jogo - Ambiente
+
 O agente - Snake
+
 O model - Pythorch
 
 Recompensa:
